@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+Html,body{
+    height: 100%;
+    background-color: #FFFFFF;
+}
+
+.nav-container{
+    height: 70px;
+    background-color:#A34343;
+    border: 2px solid #A34343;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+    
+}
+.BrandName{
+    font-size: 2.5rem;
+    font-weight: 540;
+    
+}
+.BrandName a{
+    text-decoration: none;
+    color: #fff;
+    
+   
+    
+}
+
+.BrandName a:hover{
+   color: #E9C874;
+}
+
+.tabs li{
+    /* display: inline; */
+    font-size: 1.5rem;
+    margin-left: 3rem;
+    display: flex;
+    display: inline-flex;
+    align-items: center;
+   
+    
+    
+}
+.tabs ul li {
+    
+    color: #fff;
+   
+   
+}
+.tabs ul li a{
+    list-style-type: none;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    margin-top: 1rem;
+}
+.tabs ul a::after{
+    content: "";
+    position: absolute;
+    background-color: #E9C874;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+.tabs a:hover::after{
+    width: 100%;
+}
+
+.navbar-Search{
+    display: flex;
+    align-items: center;
+    
+}
+.First-Icon{
+    border-top: #fff solid 1px;
+    border-bottom: #fff solid 1px;
+    border-right: #fff solid 1px;
+    border-left: #fff;
+    border-radius: 7px;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    background-color: #E9C874;
+}
+.First-Icon i{
+    margin-top: 2px;
+    font-size: 1.5rem;
+    color: #fff;
+    margin-left: 2px;
+   
+}
+
+.search-icon{
+    color: #fff;
+    font-size: 1.5rem;
+    border: 1px solid #fff;
+}
+.nav-Search{
+    height: 40px;
+    width: 15rem;
+    border-top:#fff solid 1px ;
+    border-bottom:#fff solid 1px ;
+    border-left:#fff solid 1px ;
+    border-radius: 4px;
+    
+
+    
+   
+   
+}
+.sign-nav{
+    display: flex;
+    align-items: center;
+    margin-top: 0.8rem;
+}
+.sign-nav p{
+    font-size: 1.5rem;
+    color: #fff;
+}
+.sign-nav a{
+    font-size: 1.25rem;
+    color: #fff;
+    text-decoration: none;
+}
+.sign-nav i{
+   word-spacing: 6px;
+   margin-left: 4px;
+   margin-right: 6px;
+}
+.sign-nav span{
+    margin-left: 8px;
+}
+.sign-nav a:hover{
+   
+    color: #E9C874;
+}
+
+.navTwo{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.navTwoTabs select {
+    margin-top: 1.2rem;
+    margin-left: 1rem;
+    padding: 0.2rem;
+    border: none;
+    -webkit-appearance: none; /* Chrome, Safari, Edge ke liye */
+    -moz-appearance: none; /* Firefox ke liye */
+    appearance: none; /* Modern browsers ke liye */
+    background: transparent; /* Arrow icon ko hide karne ke liye */
+}
+
+.navTwoTabs select::-ms-expand {
+    display: none; /* Internet Explorer ke liye dropdown arrow ko hide karna */
+}
+.navTwoTabs select:hover{
+    cursor: pointer;
+   
+}
+
+
+.navTwoTabs select option:hover{
+    background-color: #E9C874;
+
+}

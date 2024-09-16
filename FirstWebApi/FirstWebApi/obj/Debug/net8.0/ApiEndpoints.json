@@ -1,0 +1,81 @@
+[
+  {
+    "ContainingType": "FirstWebApi.Controllers.WokerController",
+    "Method": "GetData",
+    "RelativePath": "api/Woker",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FirstWebApi.Controllers.WokerController",
+    "Method": "PostData",
+    "RelativePath": "api/Woker",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "wor",
+        "Type": "FirstWebApi.Models.Worker",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FirstWebApi.Controllers.WokerController",
+    "Method": "GetData",
+    "RelativePath": "api/Woker/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FirstWebApi.Controllers.WokerController",
+    "Method": "DeleteData",
+    "RelativePath": "api/Woker/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FirstWebApi.Controllers.WokerController",
+    "Method": "PutData",
+    "RelativePath": "api/Woker/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "fetchdata",
+        "Type": "FirstWebApi.Models.Worker",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
